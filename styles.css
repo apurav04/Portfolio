@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(170, 163, 163);
+    width: 434px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+
+}
+.sidebar nav{
+    padding: 72px;
+    padding-top: 200px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+ 
+    padding: 33px;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: black;
+
+}
+.main{
+    background-color: rgb(255, 255, 251);
+    width: 80vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+  
+    background-color: rgb(170, 163, 163);
+    height: 53.4vh;
+    width: 1400px;
+    margin: 144px auto;
+    display: flex;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 100px;
+    
+}
+.devinfo h2{
+  padding-top: 10px;
+
+}
+.devinfo h3{
+    padding-top: 10px;
+}
+
+.hello{
+    font-size: 80px;
+    
+
+}
+.name{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    
+
+}
+.about{
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.moreabout{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: bold;
+}
+.buttons{
+    margin-top: 14px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(170, 163, 163);
+    font-weight: bold;
+    font-size: 15px;
+    margin:0 3px;   
+    cursor: pointer; 
+
+}
+
+.buttons button:hover{
+    background-color: rgb(220, 245, 228);
+    color: black;
+
+}
+.devpic img{
+    width: 380px;
+    margin-left: 450px;
+   
+   
+}
+.contactform { 
+    padding-top: 144px;
+    padding:0 34px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.contactform h1{
+    margin-top: 100px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+
+
+
+}
+.contactform form div{
+    
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+   
+}
+.contactform form div input{
+    
+    width: 500px;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+   
+}
+#emailHelp{
+    font-size: 18px;
+    color: blue;
+}
+.connect{
+    margin-top: 300px;
+    margin-left: 700px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 70px;
+    font-family: 'Fira Sans', sans-serif;
+}
